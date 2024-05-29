@@ -1,46 +1,46 @@
 
-# Simulador de Saída de Notas de Caixa Eletrônico
-## Informações Básicas: 
-#### Título: 
-Simulador de Saída de Notas de Caixa Eletrônico
-### Autor: 
+# ATM Bill Output Simulator
+## Basic information: 
+#### Title: 
+ATM Bill Output Simulator
+### Author: 
 Juliano Martins Scherer
-### Data: 
-28/05
-### Versão: 
+### Date: 
+05/28
+### Version: 
 1.0
-### Descrição: 
-Este programa em C++ simula a saída de notas de um caixa eletrônico, permitindo o cadastro dos valores das notas e a simulação de saques, calculando a quantidade de notas necessárias para um valor especificado pelo usuário. A execução pode ser interrompida com o código 9999.
+### Description: 
+This C++ program simulates the output of banknotes from an ATM, allowing the registration of banknote values ​​and the simulation of withdrawals, calculating the quantity of banknotes needed for a value specified by the user. Execution can be stopped with code 9999.
 
-## Funcionalidades: 
-### Cadastro de Notas:
-O usuário registra os valores das notas que serão usadas.
-### Simulação de Saque: 
-O usuário insere um valor a ser sacado e o programa calcula a quantidade de cada nota necessária.
-### Interrupção do Sistema: 
-Inserir o valor 9999 interrompe o programa.
-##Estrutura do Código: 
-Função contaNotas: Calcula a quantidade de cada nota para o valor de saque.
+## Functionalities: 
+### Record of Notes:
+The user registers the values ​​of the notes that will be used.
+### Withdrawal Simulation: 
+The user enters an amount to be withdrawn and the program calculates the amount of each note needed.
+### System Interruption: 
+Entering the value 9999 stops the program.
+##Code Structure: 
+AccountNotes function: Calculates the quantity of each note for the withdrawal value.
 
-### Parâmetros: 
-qtdNotas, valNotas, saque.
-### Função cadastraNotas: 
-Permite ao usuário registrar os valores das notas.
+### Parameters: 
+qtyNotes, valNotes, withdrawal.
+### Registration functionNotes: 
+Allows the user to record note values.
 
-### Parâmetros: 
-valNotas.
-### Função simulaSaida: 
-Exibe a quantidade de cada nota calculada.
+### Parameters: 
+valNotes.
+### SimulateOutput function: 
+Displays the amount of each calculated note.
 
-### Parâmetros: 
-qtdNotas, valNotas.
-###Função main: 
-Controla o fluxo do programa, chama as funções, e gerencia a memória.
+### Parameters: 
+qtyNotes, valNotes.
+###Main function: 
+Controls program flow, calls functions, and manages memory.
 
-## Exemplo de Uso: 
-- O usuário cadastra os valores das notas.
-- O usuário insere o valor a ser sacado.
-- O programa exibe a quantidade de cada nota necessária.
-- O usuário pode continuar inserindo valores ou interromper o sistema com o código 9999.
-## Licença: 
-Este projeto é licenciado sob a licença MIT
+## Example of use: 
+- The user registers the values ​​of the notes.
+- The user enters the amount to be withdrawn.
+- The program displays the quantity of each note required.
+- The user can continue entering values ​​or interrupt the system with code 9999.
+## License: 
+This project is licensed under the MIT License
